@@ -8,6 +8,7 @@ import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { HeaderComponent } from './components/header/header.component';
+import { BootstrapComponent } from './components/bootstrap/bootstrap.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { HeaderComponent } from './components/header/header.component';
     LoginComponent,
     SignupComponent,
     DashboardComponent,
-    HeaderComponent
+    HeaderComponent,
+    BootstrapComponent
   ],
   imports: [
     BrowserModule
